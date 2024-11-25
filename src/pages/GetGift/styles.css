@@ -1,0 +1,48 @@
+.container__get-gift {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  row-gap: 24px;
+}
+.get-gift__text-main {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38.4px;
+  width: 80%;
+}
+.get-gift__text-second {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.get-gift__how-get,
+.get-gift__text--container {
+  width: 100%;
+}
+.get-gift__how-get-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.4px;
+  margin-bottom: 10px;
+}
+.get-gift__how-get-list {
+  padding-left: 16px;
+}
+.get-gift__how-get-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: capitalize;
+}
+.get-gift-btn {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: var(--accent-bg);
+}

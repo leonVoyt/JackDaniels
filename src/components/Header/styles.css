@@ -1,0 +1,33 @@
+.header__notification {
+  background-color: var(--header-bg);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: var(--main-bg);
+}
+.header__logo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+.header__logo img {
+  margin: auto;
+  padding-left: 32px;
+}
+.header__event-date {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 11px;
+  border-block: 1px solid rgba(255, 255, 255, 0.12);
+}
+.header__event-date p {
+  font-size: 12px;
+  line-height: 24px;
+}

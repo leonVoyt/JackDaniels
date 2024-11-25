@@ -1,0 +1,60 @@
+.check-answer {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 24px;
+}
+.check-answer-wrapper {
+  padding: 0 16px;
+  height: calc(100vh - 152px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-answer--content {
+  /* margin-top: -152px; */
+  /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 16px; */
+}
+.check-answer__bar {
+  background-color: rgba(255, 255, 255, 0.12);
+  height: 4px;
+}
+.check-answer__bar span {
+  display: flex;
+  background-color: var(--accent-bg);
+  height: 4px;
+}
+.check-answer--text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.check-answer__point {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.check-answer__points-item {
+  display: flex;
+  gap: 8px;
+}
+.check-answer__points-item svg {
+  width: 24px;
+  min-width: 24px;
+}
+.check-answer__points-item p {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}

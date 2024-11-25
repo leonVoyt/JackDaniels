@@ -1,0 +1,51 @@
+.container__game {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.container__game--content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  width: 100%;
+}
+.game__field-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.game__field-container.disable {
+  pointer-events: none;
+}
+.game__header--text {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.game__field-container .gift-container {
+  flex: 1 1 33%;
+  padding: 20px;
+  max-width: 130px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.game__try-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+.game__try-item {
+  height: 40px;
+  flex: 1 1 33%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(29, 27, 27);
+}
+.game__try-item.active {
+  color: var(--accent-text);
+  background-color: transparent;
+
+  border: 1px solid var(--accent-bg);
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Syne:wght@700&display=swap");
+:root {
+  font-family: "Roboto Flex", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --main-bg: #000000;
+  --accent-bg: #b9ac90;
+
+  --main-text: #ffffff;
+  --main-text-opacity: rgba(255, 255, 255, 0.7);
+  --header-bg: #b9ac90;
+  --accent-text: #b9ac90;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  background-color: var(--main-bg);
+  min-height: 100vh;
+  color: var(--main-text);
+}
+p {
+  font-size: 12px;
+  line-height: 24px;
+}

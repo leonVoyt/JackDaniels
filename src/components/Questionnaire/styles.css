@@ -1,0 +1,61 @@
+.questionnaire__wrapper {
+  width: 100%;
+}
+.questionnaire--content {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: none;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  width: 100%;
+}
+.questionnaire--step-wrapper {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+.questionnaire--step {
+  display: flex;
+  flex: 1 1 25%;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.questionnaire--step.active {
+  background-color: var(--accent-bg);
+}
+.questionnaire__quastion {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: center;
+}
+.button.questionnaire {
+  height: 48px;
+  width: 100%;
+  background-color: transparent;
+  color: var(--accent-text);
+  border: 1px solid var(--accent-text);
+  text-transform: capitalize;
+}
+.questionnaire__footer {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  height: 48px;
+  font-size: 12px;
+  color: var(--accent-text);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.questionnaire__footer--item {
+  display: flex;
+  flex: 1 1 33%;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  border-right: 1px solid var(--accent-text);
+}
+.questionnaire__footer--item:last-child {
+  border: none;
+}
